@@ -1,0 +1,234 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 'Conv_CALIBRI';
+	src: url('/Fonts/CALIBRI/CALIBRI.eot');
+	src: local('☺'), url('f/Fonts/CALIBRI/CALIBRI.woff') format('woff'), url('/Fonts/CALIBRI/CALIBRI.ttf') format('truetype'), url('/Fonts/CALIBRI/CALIBRI.svg') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+.conteiner{
+	background: #E5E5E5;
+	overflow: hidden;
+	min-width: 100vw;
+	min-height: 100vh;
+}   
+.content{
+	margin: 40px auto;
+    font-family: 'Conv_CALIBRI';
+    font-size: 17px;
+	font-weight: 400;
+	display: flex;
+	justify-content: center;	
+}   
+aside{
+	margin-right: 30px;
+	min-width: 370px;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+.foto{
+	background: #FFFFFF;
+	border-radius: 30px 30px 0 0;
+	text-align: center;
+}
+.myphoto{
+	border-radius: 50px;
+	position: relative;
+	max-width: 200px;
+	left: 0;
+	top: -15px;
+}
+.foto h3{
+	font-size: 25px;
+	font-weight: 500;
+	line-height: 30px;		
+}
+.foto h3 span{
+	font-weight: 700;
+}
+.profession{
+	background: #F6F8F9;
+	font-weight: 500;
+	line-height: 30px;
+	height: 40px;
+	line-height: 40px;
+	width: 230px;
+	text-align: center;
+	border-radius: 35px;
+	margin: 25px auto;
+}
+.icons{
+	padding-bottom: 25px;
+}
+.icons a:not(:last-of-type){
+	margin-right: 30px;
+}
+.info{
+	background: #F6F8F9;
+	line-height: 30px;
+	font-weight: 500;
+	border-radius: 0 0 30px 30px;
+	padding-bottom: 30px;
+	flex: 1 0 auto;
+}
+.info-h3{
+	color: #FFAA01;
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 30px;
+	padding: 20px 0 10px 50px;
+}
+.icon-phone, .icon-envelop, .icon-location2{
+	padding:0 10px 0 50px;	
+}
+.list-techskills, .list-softskills{
+	list-style-position: inside;
+	padding-left: 50px;
+}
+@media (max-width: 767px) {
+	aside{
+		margin-right: 15px;
+		min-width: 230px;
+		gap: 15px;
+	}
+	.myphoto{
+		max-width: 180px;
+	}
+	.profession{
+		max-width: 180px;
+		margin: 20px auto;
+	}
+	.icons{
+		padding-bottom: 20px;
+	}
+	.icons a:not(:last-of-type){
+		margin-right: 20px;
+	}
+	.info{
+		padding-bottom: 20px;
+	}
+	.info-h3{
+		padding: 20px 0 10px 20px;
+	}
+	.icon-phone, .icon-envelop, .icon-location2{
+		padding:0 10px 0 20px;	
+	}
+	.list-techskills, .list-softskills{
+		padding-left: 20px;
+	}
+}
+/*.button{
+	display: flex;
+	justify-content: center;
+}
+button{
+	margin: 50px auto;
+	background: #FFAA01;
+	height: 60px;
+	width: 260px;
+	border-radius: 20px;
+	border: none;
+	color: #F5F7F8;
+	font-weight: 500;
+	cursor: pointer;
+	position: relative;
+	top: 0;
+	box-shadow: 0px 6px 5px #c0943c;
+	transition: all 0.7s ease;
+}
+button:hover{
+	font-size: 18px;
+	font-weight: 700;
+	transform: translate(0px, 5px);
+	transform:translate3d(0px, 5px, 5px) scale(1.1);
+	box-shadow: 0px 2px 5px #c0943c;
+	top: 4px;
+}
+.button-img{
+	margin: auto 10px;
+	position: relative;
+	top: 4px;
+}*/
+main{
+	max-width: 770px;
+	display: flex;
+	flex-direction: column;
+}
+.main-title{
+	background: #FFFFFF;
+	border-radius: 30px 30px 0 0;
+	padding: 30px 40px;
+}
+.main-title h1{
+	padding-bottom: 30px;
+}
+.main-title h1::after{
+	content: "";
+	background-color: #FFAA01;
+	height: 4px;
+	width: 50px;
+	display: block;
+}
+.main-title p{
+	line-height: 30px;
+	text-align: justify;
+}
+.main-text{
+	background: #F6F8F9;
+	padding: 15px 55px 0 40px;
+	border-radius: 0 0 30px 30px;
+	text-align: justify;
+	line-height: 30px;
+	list-style-position: inside;
+	flex-grow: 1;
+}
+.main-text_firsttitle{
+	padding-bottom: 30px;
+}
+/*.workexperience-li::first-line{
+	font-weight: 700;
+}
+.workexperience-li span{
+	color: #FFAA01;
+}
+.workexperience-li_text{
+	padding: 20px 0;
+}
+*/
+.main-text_secondtitle{
+	padding: 20px 0 ;
+}
+.workexperience-li:not(:last-of-type){
+	padding-bottom: 10px;
+}
+.workexperience-li a {
+	text-decoration: none;
+	color: black;
+	transition: all 300ms ease;
+}
+.workexperience-li a:hover {
+	text-decoration: underline;
+	font-weight: 700;
+	
+}
+.education{
+	padding: 5px 0;
+}
+.education-data{
+	color: #959595;
+	padding-bottom: 20px;
+	font-weight: 400;
+}
+.subtitle::after{
+	content: "";
+	background-color: #FFAA01;
+	height: 3px;
+	width: 50px;
+	display: block;
+}
