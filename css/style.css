@@ -6,8 +6,8 @@
 
 @font-face {
 	font-family: 'Conv_CALIBRI';
-	src: url('/Fonts/CALIBRI/CALIBRI.eot');
-	src: local('☺'), url('f/Fonts/CALIBRI/CALIBRI.woff') format('woff'), url('/Fonts/CALIBRI/CALIBRI.ttf') format('truetype'), url('/Fonts/CALIBRI/CALIBRI.svg') format('svg');
+	src: url('./Fonts/CALIBRI/CALIBRI.eot');
+	src: local('☺'), url('./Fonts/CALIBRI/CALIBRI.woff') format('woff'), url('./Fonts/CALIBRI/CALIBRI.ttf') format('truetype'), url('/Fonts/CALIBRI/CALIBRI.svg') format('svg');
 	font-weight: normal;
 	font-style: italic;
 }
